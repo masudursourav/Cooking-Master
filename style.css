@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+.navbar{
+    background-color:transparent;
+}
+#racipe-names{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+
+}
+.new-card{
+    width: 50rem;
+}
+.container{
+    font-family: 'Pushster', cursive;
+    background-color: #EDD263;
+    font-size: 1.4rem!important;
+}
+.nav-title{
+    font-family: 'Pushster', cursive;
+    font-size: 2rem!important;
+}
+#search-btn{
+    height: 3.2rem;
+    margin-top: -0.3rem;
+    margin-left: -1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 1px solid gray;
+    background-color: #3B2D64!important;
+    color: white;
+    border-radius: 0.5rem;
+}
+#full-recipe{
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+#value{
+    height: 3rem;
+    width: 30rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.search{
+  align-items: center;
+}
